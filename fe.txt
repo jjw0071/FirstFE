@@ -1,0 +1,24 @@
+JS가 무엇인가 ES6
+브라우저
+
+바닐라 JS
+
+REACT VUE SVELT
+
+REST API ASYNC/SYNC
+
+NETWORK COOKIE S
+
+상태관리
+
+게시판 JS
+EXPRESS REST API(JSON) AXIOS
+DB
+
+시맨틱 요소
+네트워크
+
+알고리즘
+공부 할게 많다
+
+면접질문 github 읽어보기
