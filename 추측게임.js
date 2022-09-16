@@ -8,8 +8,11 @@ while(!maximum){
 const targetNum =Math.floor(Math.random()*maximum)+1;
 console.log(targetNum);
 
-let guess = parseInt(prompt("enter your guess!"));
-while(guess!==targetNum){
+let guess = parseInt(prompt("Enter your guess!"));
+let count = 1;
+while(parseInt(guess) !==targetNum){
+    if(guess === "q" || guess ==="quit") break; 
+    count ++;
     while(!guess){
         guess = prompt("Enter a valid number");
     }
@@ -20,4 +23,4 @@ while(guess!==targetNum){
     }
 
 }
-prompt("Congratulation! Answer is "+guess);
+prompt(`Congratulation! Answer is ${guess}. It took ${count} times!`);
